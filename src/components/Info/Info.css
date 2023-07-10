@@ -1,0 +1,29 @@
+.iv__info{
+    margin: 1rem;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+
+.iv__info:last-child{
+    border-bottom: 0px;
+}
+
+
+.iv__info-title{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+    /* line-height: 15px; */
+}
+
+.iv__info-value{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* @media only screen and (max-width: 768px){
+    .iv__info-title{
+        font-size: 1rem;
+    }
+} */

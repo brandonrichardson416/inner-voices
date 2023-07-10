@@ -1,0 +1,25 @@
+.iv__reseller{
+    padding: 1rem 4rem;
+    border: 1px solid black;
+    text-align: center;
+    background: white;
+}
+
+.iv__reseller img{
+    height: 3rem;
+}
+
+.iv__reseller img:hover{
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;} 
+ } 
+
+ @media only screen and (max-width: 768px){
+    .iv__reseller img{
+        height: 2rem;
+    }
+ }
